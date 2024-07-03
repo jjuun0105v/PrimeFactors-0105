@@ -20,3 +20,9 @@ TEST_F(PrimeFixture, tc1) {
 	expected = {2};
 	EXPECT_EQ(expected, primeFactor.of(2));
 }
+
+TEST_F(PrimeFixture, tc2) {
+	expected = { 3 };
+	EXPECT_EQ(expected, primeFactor.of(3));
+}
+
